@@ -22,47 +22,43 @@ Humidity, Wind Speed (km/h), Visibility (km)
 
 Pressure (millibars)
 
-Technologies Used
-Python 3.x
 
-Jupyter Notebook
-
-Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, joblib
 
 Workflow
-Data Loading & Cleaning:
+1)Data Loading & Cleaning:
 
-Handle missing values
+----Handle missing values
 
-Convert date/time formats
+----Convert date/time formats
 
-Encode categorical variables
+----Encode categorical variables
 
-Exploratory Data Analysis:
+2)Exploratory Data Analysis:
 
-Visualize temperature trends
+----Visualize temperature trends
 
-Analyze humidity and precipitation patterns
+----Analyze humidity and precipitation patterns
 
-Feature Engineering:
+3)Feature Engineering:
 
-Extract date and time-based features
+----Extract date and time-based features
 
-One-hot encode categorical features
+----One-hot encode categorical features
 
-Model Building:
+4)Model Building:
 
-Train-Test Split
+----Train-Test Split
 
-Apply regression models such as Linear Regression and Random Forest
+----Apply regression models such as Linear Regression and Random Forest
 
-Evaluate with RMSE, MAE, and R² score
+----Evaluate with RMSE, MAE, and R² score
 
-Prediction & Saving Model:
+5)Prediction & Saving Model:
 
-Predict temperature for test data
+----Predict temperature for test data
 
-Save trained model for deployment
+-----Save trained model for deployment
+
 
 Results
 Accurate temperature predictions
